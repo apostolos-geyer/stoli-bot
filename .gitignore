@@ -1,0 +1,5 @@
+# IDE generated
+.idea/*
+
+# secrets
+.env
