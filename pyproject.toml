@@ -9,8 +9,10 @@ include = ["stoli_bot"]
 [tool.poetry.dependencies]
 python = "^3.12"
 discord = "^2.3.2"
-discord-interactions = "^0.4.0"
 python-dotenv = "^1.0.1"
+discord-py-interactions = "^5.11.0"
+httpx = "^0.26.0"
+notion-client = "^2.2.1"
 
 
 [build-system]
