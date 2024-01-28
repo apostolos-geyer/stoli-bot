@@ -5,7 +5,7 @@ from typing import Optional
 from notion_client import AsyncClient
 
 
-class NotionService:
+class NotionClient:
     def __init__(self):
         self.client: AsyncClient = AsyncClient(auth=os.getenv('NOTION_INTEGRATION_TOKEN'))
         print(
