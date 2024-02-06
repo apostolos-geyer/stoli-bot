@@ -6,8 +6,8 @@ load_dotenv()
 
 
 def main():
-    from bot.client import bot
-    bot.load_extension('bot.beats.extension')
+    from stoli_bot.src.bot.client import bot
+    bot.load_extension('stoli_bot.src.bot.beats.extension')
     bot.start()  # Start the bot
 
 

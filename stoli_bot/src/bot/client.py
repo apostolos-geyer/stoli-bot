@@ -1,4 +1,4 @@
-# client.py
+# crud.py
 import os
 import logging
 from interactions import Client, Intents, listen
@@ -13,6 +13,7 @@ bot: Client = Client(
     logger=logging.getLogger('stolibot'),
     send_command_tracebacks=True,
 )
+
 
 @listen()
 async def on_ready() -> None:

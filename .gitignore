@@ -2,7 +2,9 @@
 .idea/*
 
 # secrets
-.env
+**/*.env
+**/*.dict
+**/*.secrets
 
 # pycache
 **/__pycache__/

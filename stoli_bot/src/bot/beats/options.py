@@ -48,7 +48,7 @@ def key():
             name='key',
             description='The key of your beat',
             opt_type=OptionType.STRING,
-            required=True,
+            required=False,
             max_length=3, # TODO: validate key or provide options, right now restricting to 3 chars should be enough.
         )(command)
 

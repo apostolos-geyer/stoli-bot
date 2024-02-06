@@ -11,9 +11,16 @@ python = "^3.12"
 discord = "^2.3.2"
 python-dotenv = "^1.0.1"
 discord-py-interactions = "^5.11.0"
-httpx = "^0.26.0"
 notion-client = "^2.2.1"
+supabase = "^2.3.4"
+sqlalchemy = "^2.0.25"
+pytest = "^8.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+pydantic = "^2.6.0"
+pytest = "^8.0.0"
 
 [build-system]
 requires = ["poetry-core"]
