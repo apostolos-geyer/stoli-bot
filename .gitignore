@@ -13,5 +13,33 @@
 .DS_Store
 **/.DS_Store
 
+
+
+# idk what syntax i need tbh i just dont want these files
+**/.idea/*
+**/.idea
+**/.idea/*
+.idea
 .idea/*
+.idea/**/*
+
+**/.vscode/*
+**/.vscode
+**/.vscode/*
+.vscode
+.vscode/*
+.vscode/**/*
+
+**/.trunk/*
+**/.trunk
+**/.trunk/*
 .trunk
+.trunk/*
+.trunk/**/*
+
+**/.ruff_cache/*
+**/.ruff_cache
+**/.ruff_cache/*
+.ruff_cache
+.ruff_cache/*
+.ruff_cache/**/*

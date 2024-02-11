@@ -1,8 +1,8 @@
 from notion_client import AsyncClient
 
-from dotenv import dotenv_values
+import os 
 
-NOTION_CONFIG = dotenv_values('/Users/superuser/Desktop/Work/Personal/stoli-bot/notion.env') #TODO fix this shit idk whats wrong with it
+NOTION_CONFIG = os.environ 
 
 
 def get_notion_client() -> AsyncClient:
