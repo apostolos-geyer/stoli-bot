@@ -1,6 +1,6 @@
-from stoli_bot.src.services.notion.crud import notion_create, notion_query_producers
-from stoli_bot.src.models.producer import Producer
-from stoli_bot.src.models.beat import Beat
+from src.services.notion.crud import notion_create, notion_query_producers
+from src.models.producer import Producer
+from src.models.beat import Beat
 import asyncio
 
 

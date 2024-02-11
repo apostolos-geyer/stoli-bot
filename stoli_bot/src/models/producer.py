@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from stoli_bot.src.services.notion.model_utils import (
+from src.services.notion.model_utils import (
     NotionDatatype,
     notion_metadata,
     notion_object,
