@@ -57,7 +57,7 @@ def files(url: str) -> dict:
 
 
 @response_parser(NotionDatatype.TITLE)
-def title(property_name: str, properties: dict) -> str | None:
+def title(property_name: str, properties: dict) -> str | None:  # noqa: F811
     prop: dict | None = properties.get(property_name, None)
     if prop is None:
         raise ValueError('Nonexistent property/field on notion object')
@@ -72,7 +72,7 @@ def title(property_name: str, properties: dict) -> str | None:
 
 
 @response_parser(NotionDatatype.RICH_TEXT)
-def rich_text(property_name: str, properties: dict) -> str | None:
+def rich_text(property_name: str, properties: dict) -> str | None:  # noqa: F811
     prop: dict | None = properties.get(property_name, None)
     if prop is None:
         raise ValueError('Nonexistent property/field on notion object')
@@ -87,7 +87,7 @@ def rich_text(property_name: str, properties: dict) -> str | None:
 
 
 @response_parser(NotionDatatype.NUMBER)
-def number(property_name: str, properties: dict) -> int | float | None:
+def number(property_name: str, properties: dict) -> int | float | None:  # noqa: F811
     prop: dict | None = properties.get(property_name, None)
     if prop is None:
         raise ValueError('Nonexistant property / field on notion object')
@@ -97,7 +97,7 @@ def number(property_name: str, properties: dict) -> int | float | None:
 
 
 @response_parser(NotionDatatype.FILES)
-def files(property_name: str, properties: dict) -> str | None:
+def files(property_name: str, properties: dict) -> str | None:  # noqa: F811
     prop: dict | None = properties.get(property_name, None)
     if prop is None:
         raise ValueError('Nonexistant property / field on notion object')

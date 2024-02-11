@@ -48,11 +48,9 @@ class Beats(Extension):
     """Commands used to send beats to the bot for usage by Apostoli"""
 
     print(
-        f'loaded extension from beats/extension.py, TESTING_GUILD: {os.getenv('DISCORD_TESTING_GUILD')}'
+        "loaded extension from beats/extension.py\n"
+        f"TESTING_GUILD: {os.getenv('DISCORD_TESTING_GUILD')}"
     )
-
-    def __init__(self, *args):
-        self.users_registered = dict()
 
     beats_base: SlashCommand = SlashCommand(
         name="beats",
